@@ -25,9 +25,9 @@ def input_student_info(info):
     while num > 0:
         id = input("Input student's ID: ")
         if not is_exist(info, id):
-            name = input("Input student's name: ")
-            dob = input("Input student's date of birth (dd/mm/yyyy): ")
-            student = [name, dob]
+            Name = input("Input student's name: ")
+            DOB = input("Input student's date of birth (dd/mm/yyyy): ")
+            student = [Name, DOB]
             info[id] = student
             num = num - 1
         else:
