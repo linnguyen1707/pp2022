@@ -10,8 +10,8 @@ def input_course_info(info):
     while num > 0:
         id = input("Enter course ID : ")
         if not is_exist(info, id):
-            name = input("Enter course name : ")
-            course = [name]
+            Name = input("Enter course name : ")
+            course = [Name]
             info[id] = course
             num = num - 1
         else:
